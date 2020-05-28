@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F96" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="dishes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Dishes" inverseName="category" inverseEntity="Dishes"/>
+    </entity>
+    <entity name="Dishes" representedClassName="Dishes" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="dishes" inverseEntity="Category"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Orders" representedClassName="Orders" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="employee" optional="YES" attributeType="String"/>
+        <attribute name="items" optional="YES" attributeType="String"/>
+        <attribute name="table" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-279.04296875" positionY="11.71484375" width="128" height="88"/>
+        <element name="Dishes" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Employee" positionX="-144" positionY="117" width="128" height="28"/>
+        <element name="Orders" positionX="-95.56640625" positionY="151.62109375" width="128" height="28"/>
+    </elements>
 </model>
