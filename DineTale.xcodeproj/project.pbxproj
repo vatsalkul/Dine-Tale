@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8331EEA22469312A000C04F5 /* restaurantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restaurantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8331EEA22469312A000C04F5 /* Dine Tale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dine Tale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8331EEA52469312A000C04F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8331EEA72469312A000C04F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8331EEA92469312A000C04F5 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		8331EEA32469312A000C04F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8331EEA22469312A000C04F5 /* restaurantApp.app */,
+				8331EEA22469312A000C04F5 /* Dine Tale.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8331EEA12469312A000C04F5 /* restaurantApp */ = {
+		8331EEA12469312A000C04F5 /* DineTale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8331EEB92469312D000C04F5 /* Build configuration list for PBXNativeTarget "restaurantApp" */;
+			buildConfigurationList = 8331EEB92469312D000C04F5 /* Build configuration list for PBXNativeTarget "DineTale" */;
 			buildPhases = (
 				8331EE9E2469312A000C04F5 /* Sources */,
 				8331EE9F2469312A000C04F5 /* Frameworks */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = restaurantApp;
+			name = DineTale;
 			productName = restaurantApp;
-			productReference = 8331EEA22469312A000C04F5 /* restaurantApp.app */;
+			productReference = 8331EEA22469312A000C04F5 /* Dine Tale.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8331EE9D2469312A000C04F5 /* Build configuration list for PBXProject "restaurantApp" */;
+			buildConfigurationList = 8331EE9D2469312A000C04F5 /* Build configuration list for PBXProject "DineTale" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8331EEA12469312A000C04F5 /* restaurantApp */,
+				8331EEA12469312A000C04F5 /* DineTale */,
 			);
 		};
 /* End PBXProject section */
@@ -416,8 +416,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vatsalkulshreshtha.me.restaurantApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vatsalkulshreshtha.me.DineTale;
+				PRODUCT_NAME = "Dine Tale";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,8 +435,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vatsalkulshreshtha.me.restaurantApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = vatsalkulshreshtha.me.DineTale;
+				PRODUCT_NAME = "Dine Tale";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8331EE9D2469312A000C04F5 /* Build configuration list for PBXProject "restaurantApp" */ = {
+		8331EE9D2469312A000C04F5 /* Build configuration list for PBXProject "DineTale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8331EEB72469312D000C04F5 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8331EEB92469312D000C04F5 /* Build configuration list for PBXNativeTarget "restaurantApp" */ = {
+		8331EEB92469312D000C04F5 /* Build configuration list for PBXNativeTarget "DineTale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8331EEBA2469312D000C04F5 /* Debug */,
